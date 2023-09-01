@@ -1,0 +1,6 @@
+POST http://localhost:3001/person/create
+Content-type: application/json 
+
+{ 
+  "namePerson": "ezequiel"
+}

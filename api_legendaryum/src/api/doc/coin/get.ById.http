@@ -1,0 +1,1 @@
+GET http://localhost:3001/coin/getById/d94a3ad1-c518-4f31-944c-ade4f5ab056b

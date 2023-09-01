@@ -1,0 +1,46 @@
+POST http://localhost:3001/room/create
+Content-type: application/json
+
+{
+  "nameRoom": "test_2_0_2",
+  "dimensionX": 50,
+  "dimensionY": 50,
+  "dimensionZ": 50,
+  "coins": [
+    {
+      "coordinateX": 1,
+      "coordinateZ": 1,
+      "coordinateY": 1
+    },
+    {
+      "coordinateX": 2,
+      "coordinateZ": 2,
+      "coordinateY": 2
+    },
+    {
+      "coordinateX": 8,
+      "coordinateZ": 8,
+      "coordinateY": 8
+    },
+    {
+      "coordinateX": 3,
+      "coordinateZ": 3,
+      "coordinateY": 3
+    },
+    {
+      "coordinateX": 20,
+      "coordinateZ": 4,
+      "coordinateY": 4
+    },
+    {
+      "coordinateX": 5,
+      "coordinateZ": 5,
+      "coordinateY": 5
+    },
+    {
+      "coordinateX": 6,
+      "coordinateZ": 6,
+      "coordinateY": 6
+    }
+  ]
+}

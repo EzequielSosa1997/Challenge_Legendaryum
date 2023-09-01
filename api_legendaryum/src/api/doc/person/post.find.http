@@ -1,0 +1,7 @@
+POST http://localhost:3001/person/find
+Content-type: application/json 
+
+{ 
+      "id": "42e95e97-636d-4424-88ed-f119624cdb82",
+      "positionOfPersonInXYZ": "X40-Y42-Z32"
+}
