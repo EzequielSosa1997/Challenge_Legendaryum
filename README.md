@@ -53,7 +53,9 @@ Apenas levante el servidor cargara una **habitacion** con sus 9 **monedas**
 - un array vacio para las personas que se conecten
 - la cantidad de monedas.
 - la duracion de la vida util de las monedas (**1 hora**)
-  > Las **Monedas** que se cree tendran las siguientes especificaciones:
+  
+> Las **Monedas** que se cree tendran las siguientes especificaciones:
+
 - id
 - nombre
 - dimensiones con un limite de **_X1-Y1-Z1_**
