@@ -10,7 +10,7 @@
 ### Git
 
 ```bash
-git clone
+git clone https://github.com/000EZE000/Challenge_Legendaryum.git
 ```
 
 ### Variables de entorno
