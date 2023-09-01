@@ -1,0 +1,28 @@
+version: "3.8"
+services:
+  redis_local:
+    container_name: redis_local
+    image: redis/redis-stack:latest
+    restart: unless-stopped
+    environment:
+      - REDIS_ARGS=--save 1200 32
+    expose:
+      - 6379
+    volumes:
+      - "./redis_legendaryum/:/data"
+  api_local:
+    container_name: api_local
+    build:
+      context: ./api_legendaryum/
+    ports:
+      - "3001:3001"
+    depends_on:
+      - "redis_local"
+    env_file:
+      - ./api_legendaryum/.env.local
+    restart: unless-stopped
+    volumes:
+      - "./api_legendaryum/:/app"
+volumes:
+  redis_legendaryum: {}
+  api_legendaryum: {}
