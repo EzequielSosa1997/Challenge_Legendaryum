@@ -1,0 +1,8 @@
+.git
+.env.test.unit
+dist
+.env
+.env.local
+.env.pro
+.env.example
+.env.dev

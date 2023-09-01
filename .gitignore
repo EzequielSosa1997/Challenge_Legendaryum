@@ -1,0 +1,4 @@
+node_modules
+.git
+redis_legendaryum/*
+dist
